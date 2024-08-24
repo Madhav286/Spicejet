@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SpiceJet Flight Booking Suite">
+    <test name="Flight Booking Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.spicejet.tests.LoginTest"/>
+            <class name="com.spicejet.tests.FlightSearchTest"/>
+            <class name="com.spicejet.tests.FlightSelectionTest"/>
+            <class name="com.spicejet.tests.BookingDetailsTest"/>
+            <class name="com.spicejet.tests.SeatSelectionTest"/>
+            <class name="com.spicejet.tests.AddOnsSelectionTest"/>
+            <class name="com.spicejet.tests.DiscountCodeTest"/>
+            <class name="com.spicejet.tests.PaymentTest"/>
+            <class name="com.spicejet.tests.BookingConfirmationTest"/>
+        </classes>
+    </test>
+</suite>
